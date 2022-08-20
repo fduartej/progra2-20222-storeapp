@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" >
+    <body>
+        Calculadora Form
+        <form th:action="@{/calcular}" th:object="${calculadora}" method="post">
+            <div>
+                <label>Operador1:</label>
+                <input type="number" th:field="*{operador1}" placeholder="integer" />
+            </div>
+            <div>
+                <label>Operador2:</label>
+                <input type="number" th:field="*{operador2}" placeholder="integer" />
+            </div>   
+            <div>
+                <label>Operando:</label>
+                <select th:field="*{operando}">
+                    <option value="+">Suma</option>
+                    <option value="-">Resta</option>
+                </select>
+            </div>
+            <div>
+                <button th:with="text='Calcular'" class="btn btn-primary" type="submit" th:text="${text}"/>
+            </div>                     
+        </form>
+        <p th:text="${mensaje}" />
+    </body>
+</html>
