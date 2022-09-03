@@ -8,7 +8,6 @@ import org.springframework.validation.BindingResult;
 
 import javax.validation.Valid;
 
-import com.acme.storeapp.model.Calculadora;
 
 @Controller
 public class HomeController {
