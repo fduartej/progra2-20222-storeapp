@@ -1,4 +1,4 @@
-package com.acme.storeapp.controller;
+package com.acme.storeapp.controller.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

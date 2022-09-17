@@ -1,4 +1,4 @@
-package com.acme.storeapp.controller;
+package com.acme.storeapp.controller.web;
 
 import java.util.Optional;
 
