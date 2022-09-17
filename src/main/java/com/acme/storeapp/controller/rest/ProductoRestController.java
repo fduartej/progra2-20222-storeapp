@@ -16,9 +16,12 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import java.util.*;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping(value = "api/productos", produces = "application/json")
 public class ProductoRestController {
     private final ProductoRepository productsData;
