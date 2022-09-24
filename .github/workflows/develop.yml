@@ -1,4 +1,4 @@
-name: Java CI with Maven Deploy to heroku Web Integrado
+name: Develop Java CI with Maven Deploy to heroku Web Integrado
 
 on:
   push:
