@@ -55,6 +55,13 @@
 			<version>42.5.0</version>
 		</dependency>
 
+		<!-- amqp-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+
 		<!-- webjars -->
 		<dependency>
 			<groupId>org.webjars</groupId>
